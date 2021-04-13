@@ -1,0 +1,15 @@
+:root {
+	font: 18px/28px 'Chivo', sans-serif;
+	font-weight: 300;
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	margin: 24px;
+	background: #121725;
+	color: white;
+}
