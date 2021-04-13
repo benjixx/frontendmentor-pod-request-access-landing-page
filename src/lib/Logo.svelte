@@ -3,6 +3,12 @@
 <style>
 	img {
 		display: block;
-		margin: 48px auto 56px auto;
+		margin: 62px auto 56px auto;
+	}
+
+	@media screen and (min-width: 768px) {
+		img {
+			margin: 48px auto 0 0;
+		}
 	}
 </style>
