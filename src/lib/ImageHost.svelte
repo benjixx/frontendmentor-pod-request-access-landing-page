@@ -20,4 +20,11 @@
 			opacity: 1;
 		}
 	}
+
+	@media screen and (min-width: 1440px) {
+		div {
+			background: url(/desktop/image-host.jpg) no-repeat top right;
+			transform: translateY(130px);
+		}
+	}
 </style>

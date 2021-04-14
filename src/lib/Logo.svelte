@@ -11,4 +11,10 @@
 			margin: 48px auto 0 0;
 		}
 	}
+
+	@media screen and (min-width: 1440px) {
+		img {
+			transform: translateY(-50%);
+		}
+	}
 </style>

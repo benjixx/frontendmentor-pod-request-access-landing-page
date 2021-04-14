@@ -29,6 +29,22 @@
 </main>
 
 <style>
+	main {
+		margin: 24px;
+	}
+
+	@media screen and (min-width: 768px) {
+		main {
+			margin: 39px;
+		}
+	}
+
+	@media screen and (min-width: 1440px) {
+		main {
+			margin: 130px 0 130px 165px;
+		}
+	}
+
 	.content {
 		display: flex;
 		/* ATTENTION: using flex here automatically gets rid of collapsing margins */
@@ -38,7 +54,6 @@
 	@media screen and (min-width: 768px) {
 		.content {
 			margin: 152px 0 0 0;
-			/* margin-top: 152px calc(100vw - 715px) auto 0; */
 			max-width: 635px;
 			padding-top: 92px;
 			padding-right: 32px;
@@ -57,6 +72,12 @@
 		}
 		.wrapper-channels {
 			order: 4;
+		}
+	}
+
+	@media screen and (min-width: 1440px) {
+		.content {
+			margin: 76px 0 0 0;
 		}
 	}
 </style>

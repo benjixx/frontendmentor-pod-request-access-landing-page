@@ -19,4 +19,11 @@
 			transform: translate(-9px, 120px);
 		}
 	}
+
+	@media screen and (min-width: 1440px) {
+		.pattern-dots {
+			float: right;
+			transform: translateY(calc(-50% - 32px));
+		}
+	}
 </style>

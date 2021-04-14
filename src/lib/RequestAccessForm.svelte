@@ -31,6 +31,12 @@
 		color: #fff;
 	}
 
+	input:focus,
+	button:focus {
+		outline: none;
+		box-shadow: 0 0 4px #c2cbe5;
+	}
+
 	button {
 		margin-top: 16px;
 		background: #54e6af;
@@ -55,15 +61,16 @@
 		button {
 			display: inline-block;
 			width: unset;
-			margin: 0;
 		}
 
 		input {
 			width: 240px;
+			margin: 0;
 		}
 
 		button {
 			padding: 8px 24px;
+			margin: 0 0 0 8px;
 		}
 	}
 </style>
